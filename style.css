@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+.navbar{
+    text-transform:uppercase;
+    font-size: 15px;
+    font-family: inherit;
+    font-weight: 700; 
+    letter-spacing: 0.2rem;
+    background-color: rgb(0, 0, 0 , 0.6) !important;
+    padding: 17px 0 ;
+}
+.navbar-nav .nav-item .nav-link
+{
+    color: #bfbfbf;
+    padding-left:20px ;
+}
+.navbar-light .navbar-nav .nav-link:hover , .navbar-light .navbar-nav .nav-link.active:hover
+{
+    color: #1ebba3;
+}
+.navbar-light .navbar-nav .nav-link.active
+{
+    color: white;
+}
+
+/*---------------- Navigation End ------------------ */
+
+.mainImg{
+   width: 100%;
+   opacity: 0.65;
+}
+.heading-Content
+{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    max-width: 100%;
+}
+.heading-Content h5{
+    font-size: 3em !important;
+    font-weight: 300;
+    color: #000000;
+    font-family: monospace;
+}
+.heading-Content h1{
+    font-size: 5em;
+    font-weight: bolder;
+    color: #1ebba3;
+    font-family: inherit;
+    
+
+}
+.heading-Content p{
+    font-weight: lighter;
+    color: #fff;
+    font-size: inherit; 
+    text-transform: uppercase;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    width: auto;
+    background-color: #000000;
+    
+} 
+/* ------------- about Section ----------------*/
+.introImg
+{
+    opacity: 0.85;
+}
+.introPara{
+    text-align: justify;
+}
+#about  a{
+   
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 15px 22px;
+    width: 40%;
+    background-color: #000000;
+  
+}
+#about a:hover{
+    text-decoration: none;
+    border: 1.5px solid #1ebba3;
+}
+
+/* ------------ Cards ----------- */
+.cardImg
+{
+    opacity: 0.85;
+}
+
+#showMore .btn a{
+    font-size: 1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bolder;
+    color: #fff;
+    border-radius: 5px;
+    padding: 15px 15px;
+    background-color: #000000;
+}
+#showMore .btn a:hover{
+    text-decoration: none;
+    border: 1.5px solid #1ebba3;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #fff;
+    border-radius: 5px;
+    padding: 15px 15px;
+    background-color: #000000;
+    
+}
+
+/* ======= NewsLeter ========= */
+.sec1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f8fafb;
+}
+.form-control
+{
+    display: inline;
+
+}
+
+/* =========== medai quiery ============= */
+
+@media screen and (max-width : 945px) {
+    .heading-Content{
+     top: 27%;
+    }
+
+    .heading-Content h5{
+        font-size: 1.5em;
+    }
+    .heading-Content h1{
+        font-size: 1.5em;
+    
+    }
+    .heading-Content p{
+ 
+        font-size: 0.7em; 
+        
+    } 
+
+}
+@media screen and (max-width : 530px) {
+    
+    .heading-Content{
+        top: 17%;
+       }
+   
+       .heading-Content h5{
+           font-size: 1em;
+       }
+       .heading-Content h1{
+           font-size: 1em;
+       
+       }
+       .heading-Content p{
+    
+           font-size: 0.4em; 
+           
+       } 
+}
